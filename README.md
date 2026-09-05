@@ -112,6 +112,12 @@ bash <(curl -fsSL https://raw.githubusercontent.com/jh4ygsg-dot/mihomo-anytls-br
 
 卸载脚本会移除本项目的 systemd 服务、监控脚本和状态目录，并尝试删除由状态文件记录的 Brutal `/32` 规则；不会卸载 TCP Brutal 内核模块本身，也不会修改 Mihomo 配置。
 
+## 致谢
+
+本项目的脚本设计、实现与文档编写由项目作者与 OpenAI ChatGPT（GPT-5.6 Sol）协作完成。
+
+感谢 Mihomo / MetaCubeX 与 TCP Brutal / HyNetworks 项目的开发者。
+
 ## 说明
 
 TCP Brutal 是独立项目。本仓库只是围绕 Mihomo AnyTLS + TCP Brutal v2 的自动规则管理脚本，与 Mihomo / MetaCubeX、TCP Brutal / HyNetworks 无官方关联。
